@@ -7,8 +7,8 @@ Concepts learnt:
 - struct: a struct in go lang allows us to create a custom data structure. Similar to the ones in c++.
 - An interface allows us to declare functions for the structs.
 - We them define the implementation of the functions.
-- * -> We use asterisk to pass a pointer to a variable or to dereference an address.
-- & -> We use andpersand to pass the address of a variable.
+- '*' -> We use asterisk to pass a pointer to a variable or to dereference an address.
+- '&' -> We use andpersand to pass the address of a variable.
 - (If a function I want to call is asking for a pointer/reference to a variable, I must pass the address of that variable)
 - Notice that we also pass pointers to functions that belong to a particular struct object. (Which is different that other languages like python and java)
 
