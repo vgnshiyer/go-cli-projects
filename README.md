@@ -61,3 +61,12 @@ Other concepts.
 - A Proxy is a server which sits in front of a private network that forwards requests or responses between clients and servers.
 - A forward proxy is for forwarding requests from clients sitting in a private network to the internet. It mainly blocks certain malicious websites from injesting bad data in the network. For example, your company blocking your traffic outside their network.
 - A Reverse proxy does the opposite. It filters requests coming from the clients on the internet to the internal servers. It also acts as a load balancer to make sure no particular server is overloaded with requests.
+
+#### 2. WebServer
+
+Concepts learnt.
+
+- the http package is used for making and serving http calls.
+- the handle method needs to be provided with the root path for the webserver.
+- the package automatically looks for the index.html file for the root path
+- HandleFunc method can be used to handle requests to other endpoints (GET, POST)
